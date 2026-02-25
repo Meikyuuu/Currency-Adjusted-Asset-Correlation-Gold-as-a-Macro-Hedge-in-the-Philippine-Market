@@ -14,3 +14,8 @@ This project demonstrates an end-to-end data engineering and analytics pipeline 
 * **SQL:** Run the `.sql` script in BigQuery to create the currency-adjusted view.
 * **Environment:** Ensure you have `google-cloud-bigquery`, `pandas`, and `seaborn` installed in your Python environment.
 * **Analysis:** Run the `gold_risk_analysis.py` script to pull data from the cloud and generate the risk transmission chart.
+
+## **Data Sources**
+* **Market Data:** Historical S&P 500 (SPY) and Gold (GLD) prices sourced via Yahoo Finance API.
+* **Currency Exchange:** USD/PHP historical exchange rates used for localized price modeling.
+* **Tools Used:** Google BigQuery (Data Warehouse), Python (Analysis), and AI-assisted script optimization.
