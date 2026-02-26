@@ -16,7 +16,6 @@ This project demonstrates an end-to-end data engineering and analytics pipeline 
 * **Correlation Breakout:** Using 30-day moving averages, the project identified specific "regime shifts" where the correlation between US equities and PHP-Gold flipped from positive to strongly negative, confirming Gold's effectiveness as a macro-hedge during crises.
 * **Risk Transmission Accuracy:** The dual-axis visualization confirmed that risk transmission from the US to the Philippines is often delayed, allowing localized Gold assets to act as a leading indicator for portfolio protection.
 
-* 
 ## **How to Use This Repo**
 * **SQL:** Run the `.sql` script in BigQuery to create the currency-adjusted view.
 * **Environment:** Ensure you have `google-cloud-bigquery`, `pandas`, and `seaborn` installed in your Python environment.
